@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Reference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS Grid Reference</h1>
+
+        <nav class="tabs">
+            <a href="index.html" class="active">Container</a>
+            <a href="items.html">Items</a>
+            <a href="alignment.html">Alignment</a>
+            <a href="patterns.html">Patterns</a>
+        </nav>
+    </header>
+
+
+    <section>
+
+        <h2>Defining Columns & Rows</h2>
+
+        <div class="card-grid">
+
+            <div class="card">
+                <h3>grid-template-columns</h3>
+
+                <p>
+                    Sets column widths.
+                </p>
+
+                <pre>
+                    grid-template-columns:
+                    200px 1fr 1fr;
+                </pre>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>fr unit</h3>
+
+                <p>
+                    Remaining space divided into fractions
+                </p>
+                <pre>
+                    1fr 2fr 1fr
+                </pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
