@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Patterns</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>CSS Grid Reference</h1>
+
+        <nav class="tabs">
+
+            <a href="index.html">Container</a>
+            <a href="items.html">Items</a>
+            <a href="alignment.html">Alignment</a>
+            <a href="patterns.html" class="active">Patterns</a>
+
+        </nav>
+
+    </header>
+
+
+    <section>
+
+        <h2>Useful Patterns</h2>
+
+        <div class="card-grid">
+
+            <div class="card">
+
+                <h3>Holy Grail Layout</h3>
+
+                <pre>
+grid-template-areas:
+"header header"
+"sidebar main"
+"footer footer";
+</pre>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Responsive Cards</h3>
+
+                <pre>
+repeat(auto-fit,
+minmax(240px,1fr))
+</pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
